@@ -52,6 +52,7 @@ const extension = {
 					filename: inputPath,
 					filters: extension.options.filters,
 				},
+				extension.options.locals,
 				arg
 			)
 
